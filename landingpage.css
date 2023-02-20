@@ -147,13 +147,13 @@ h2 {
 	flex-direction: row;
 	justify-content:space-evenly;
 	margin-top: 60px;
-	height: 350px;
+	height: 280px;
 	font-size: 32px;
 	font-weight: bold;
 	color:#557d20;
 }
 
-.lucie p, .murdo p {
+.lucie p, .murdo p, .github_link p {
 	display: flex;
 	flex-direction: row;
 	justify-content:space-evenly;
@@ -161,6 +161,22 @@ h2 {
 
 .gl_icon {
 	padding-left: 25px;
+}
+
+.github_url {
+	height: 500px;
+	display: flex;
+	flex-direction: row;
+	justify-content:space-evenly;
+
+	height: 320px;
+	font-size: 32px;
+	font-weight: bold;
+	color:#557d20;
+}
+
+.gl_icon_project {
+	margin-left: 156px;
 }
 
 
@@ -180,5 +196,6 @@ h2 {
 	border-right: 10px solid #C6E377;
 	border-radius: 50px;
 }
+
 
 
